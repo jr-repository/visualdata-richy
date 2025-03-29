@@ -39,7 +39,7 @@ const Index = () => {
               </h1>
             </div>
             <p className="text-indigo-100 text-sm md:text-base mt-4 max-w-2xl mx-auto">
-              Platform analisis visual data {config.type.toLowerCase()} pangan modern untuk pemahaman yang lebih baik tentang tren produksi, impor, dan konsumsi pangan global.
+              Website analisis visual data {config.type.toLowerCase()} untuk skripsi nareshh wkwk
             </p>
           </div>
         </div>
@@ -51,11 +51,11 @@ const Index = () => {
           <TabsList className="grid w-full max-w-md mx-auto grid-cols-2 mb-8">
             <TabsTrigger value="data" className="flex items-center gap-2">
               <FileSpreadsheet className="h-4 w-4" />
-              <span>Data & Chart</span>
+              <span>Data & Grafik</span>
             </TabsTrigger>
             <TabsTrigger value="tutorial" className="flex items-center gap-2">
               <BookOpen className="h-4 w-4" />
-              <span>Tutorial</span>
+              <span>Tutor kalo bingung</span>
             </TabsTrigger>
           </TabsList>
           
@@ -83,7 +83,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-500 text-sm mb-4 md:mb-0">
               <p>Visualisasi Data {config.type} Pangan {config.country}</p>
-              <p className="mt-1">© {new Date().getFullYear()} - Dibuat dengan teknologi modern</p>
+              <p className="mt-1">© {new Date().getFullYear()} - Develope by Richy</p>
             </div>
             <div className="flex space-x-4">
               <a 
@@ -95,7 +95,7 @@ const Index = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                 </svg>
-                <span className="text-xs">Deploy dengan GitHub</span>
+                <span className="text-xs"></span>
               </a>
             </div>
           </div>

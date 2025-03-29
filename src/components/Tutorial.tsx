@@ -121,10 +121,7 @@ const Tutorial = () => {
                 <Check size={16} className="text-indigo-600 mt-1 flex-shrink-0" />
                 <p>Unduh grafik setelah perubahan data untuk menyimpan salinan visualisasi.</p>
               </li>
-              <li className="flex gap-2">
-                <Check size={16} className="text-indigo-600 mt-1 flex-shrink-0" />
-                <p>Gunakan fitur "Deploy dengan GitHub" untuk mempublikasikan aplikasi visualisasi Anda secara online.</p>
-              </li>
+      
             </ul>
           </div>
         </div>
